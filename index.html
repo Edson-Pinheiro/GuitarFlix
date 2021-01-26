@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style/responsive.css">
+
+
+    <title>GuitarFLIX</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">GuitarFLIX</h2>
+            <nav>
+                <a href='index.html'>Inicio</a>
+                <a href="#">Musicos</a>
+                <a href="#">Shows</a>
+                <a href="#">Entrevistas</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="musico-principal">
+            <div class="container">
+                <h3 class="titulo">Jimi Hendrix</h3>
+                <p class="descricao">Hendrix tinha talento nato para tocar guitarra. Ao longo de sua carreira, sempre se dedicou e foi aprimorando técnicas, efeitos em amplificadores, pedaleiras e guitarras para conseguir fazer seu som autêntico. Canhoto, Hendrix criou habilidade para tocar guitarra até com os dentes.</p>
+                 <div>
+                    <button role="button" class="botao" onclick="play()">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao" onclick="info()">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                 </div>            
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-musicos">
+      <div class="owl-carousel owl-theme" >
+
+        <div class="item" >
+            <a href="https://youtu.be/bt-RoSzsEKA?t=65" target="blank">
+                <img  class="box-musico" id="tosin" src="img/Tosin Abasi.jpg"  alt="Tosin Abasi" 
+                onclick="play(id)" srcset="">
+                <!-- <summary>Tosin Abasi</summary> -->
+            </a>
+
+            <details>
+                <summary>Tosin Abasi</summary>
+                <i>Tosin Abasi é, certamente, um dos guitarristas mais inovadores dos últimos tempos. O músico tem se destacado com a banda de metal progressivo Animals as Leaders por sua incessante busca em criar novas sonoridades, incluindo pelo uso de uma guitarra de 8 cordas.</i>
+            </details>
+
+
+        </div class="item">
+
+        <div class="item">
+            <a href="https://youtu.be/Pl3EjL5_trs?t=09" target="blank">
+                <img class="box-musico" id="kiko" src="img/Kiko Loureiro.jpg" alt="Kiko Loureiro">  
+            </a>
+
+            <details>
+                <summary>Kiko Loureiro</summary>
+                <i>Pedro Henrique "Kiko" Loureiro (Rio de Janeiro, 16 de junho de 1972) é um músico multi-instrumentista, compositor e guitarrista brasileiro, membro da banda de Thrash metal Megadeth e ex-membro da banda de metal melódico/power metal Angra. </i>
+            </details>
+
+        
+        </div>
+
+        <div class="item">
+            <a href="https://youtu.be/VCy6iUhpp58" target="blank">
+                <img class="box-musico" id="steve" src="img/steve-vai.jpg" alt=""  srcset="">
+            </a>
+
+            <details>
+                <summary>Steve Vai</summary>
+                <i>Steven Siro Vai, mais conhecido por Steve Vai é um guitarrista, compositor e produtor musical estadunidense. Conhecido por ser um guitarrista virtuoso, Steve Vai é creditado como o criador de uma técnica de tocar guitarra chamada "Joint shifting", considerado um dos melhores guitarristas do mundo.</i>
+            </details>
+            <!-- <iframe class="box-musico"  src="https://www.youtube.com/embed/VCy6iUhpp58"></iframe> -->
+            <!-- <iframe class="box-musico" width="233" height="150" src="https://www.youtube.com/embed/VCy6iUhpp58" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        </div> 
+
+        <div class="item">
+            <a href="https://youtu.be/d_0khAAItqg" target="blank">
+                <img class="box-musico" id="satriani" src="img/Joe Satriani.jpeg" alt=""  srcset="">
+            </a>
+
+            <details>
+                <summary>Joe Satriani</summary>
+                <i>Com mais de 10 milhões de discos vendidos, Satriani é o músico de rock instrumental que mais vendeu discos na história.[3] De seus vários álbuns solo, dois chegaram a disco de platina e outros quatro a disco de ouro, com 15 indicações ao Grammy entre eles.</i>
+            </details>
+
+        </div>
+
+        <div class="item">
+            <a href="https://youtu.be/0GdXNaMos_w" target="blank">
+                <img class="box-musico" id="Aaron" src="img/Aaron Marshall.jpg"  srcset="">
+            </a>
+
+            <details>
+                <summary>Aaron Marshall</summary>
+                <i>Marshall explora o instrumento com grande virtuosismo, tem uma abordagem consistentemente experimental para a composição, e é amplamente considerado por um som que é tão melódico quanto otimista e pesado, e acima de tudo, totalmente consumista.</i>
+            </details>
+
+        </div>
+
+        <div class="item">
+            <a href="https://youtu.be/LykGbQy4wQA?t=11" target="blank">
+                <img class="box-musico" id="tim" src="img/Tim Henson.jpg" alt=""  srcset="">
+            </a>
+
+            <details>
+                <summary>Tim Henson</summary>
+                <div> Tim Henson é certamente uns dos guitarristas mais populares possui uma habilidade 'ímpar', nasceu no Texas em 19 de novembro de 1993. Guitarrista da banda de metal Polyphia.</div>
+            </details>
+
+
+        </div>
+
+        <div class="item">
+            <a href="https://youtu.be/p8cGceHp9lU" target="blank">
+                <img class="box-musico" src="img/Plini.jpg" alt=""  srcset="">
+            </a>
+
+            <details>
+                <summary>Plini</summary>
+                <div>  Plini Roessler-Holgate (Sydney, 22 de julho de 1992) é um guitarrista e compositor australiano. Ele começou lançando música sob o pseudônimo de Halcyon, antes de mudar para o uso de seu primeiro nome. Steve Vai o descreveu como "o excepcional futuro da guitarra", e o site MusicRadar nomeou Plini o melhor guitarrista progressivo de 2017.</div>
+            </details>
+
+        </div>
+
+        <div class="item">
+            <a href="https://youtu.be/sc0LcFJSKFI" target="blank">
+                <img class="box-musico" src="img/Javier Reyes.jpg" alt=""  srcset="">
+            </a>
+
+            <details>
+                <summary>Javier Reyes</summary>
+                <div> Javier Reyes é mais conhecido por seu trabalho de guitarra de 8 cordas em suas bandas Animal as Leaders e Mestis. Formado em violão clássico, ele combina influências tradicionais espanholas com riffs de metal progressivo.</div>
+            </details>
+
+        </div>
+
+        <div class="item">
+            <a href="https://youtu.be/zBWURleQuLc" target="blank">
+                <img class="box-musico" src="img/bulb.jpg" alt=""  srcset="">
+            </a>
+            <details>
+                <summary>Misha Mansoor</summary>
+                <div> Mansoor é visto como um dos precursores do movimento djent e é muitas vezes erroneamente atribuído com a invenção da própria palavra (ele atribui sua invenção ao guitarrista de Meshuggah Fredrik Thordendal).</div>
+            </details>
+
+        </div>
+
+        <div class="item">
+            <a href="https://youtu.be/44ZTJ4HGEDA" target="blank">
+                <img class="box-musico" src="img/yvette young.jpg" alt=""  srcset="">
+            </a>
+            <details>
+                <summary>Yvette Young</summary>
+                <div>Young se formou na Universidade da Califórnia, Los Angeles com um Bacharelado em Belas Artes e começou sua carreira postando vídeos de si mesma tocando música em 2009. Conhecida pelo dedilhado rápido, ela está menos interessada na virtuose e mais de olho em riffs emocionantes.  </div>
+            </details> 
+
+        </div>
+        
+        <div class="item">
+            <a href="https://youtu.be/qFfnlYbFEiE" target="blank">
+                <img class="box-musico" src="img/jimi hendrix 2.jpg" alt=""  srcset="">
+            </a>
+
+            <details>
+                <summary>Jimi Hendrix</summary>
+                <div>Hendrix tinha talento nato para tocar guitarra. Ao longo de sua carreira, sempre se dedicou e foi aprimorando técnicas, efeitos em amplificadores, pedaleiras e guitarras para conseguir fazer seu som autêntico. Canhoto, Hendrix criou habilidade para tocar guitarra até com os dentes.</div>
+            </details>
+
+        </div>
+
+      </div>           
+    </div>
+
+  
+
+    <script src="https://kit.fontawesome.com/dd98cc85b5.js" crossorigin="anonymous"></script>
+     <script src="js/owl/jquery.min.js"></script>
+     <script src="js/owl/owl.carousel.min.js"></script>
+     <script src="js/owl/setup.js"></script>
+     <script src="js/main.js"></script>
+</body>
+
+<footer className="main-footer" style="margin-left:90%;" >
+    Desenvolvido por <br> Edson Pinheiro
+
+
+    <div className="footer-icons" >
+        <a href="https://www.linkedin.com/in/edson-pinheiro/" target="_new"  >
+            <svg auto width="25" height="29" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.22301 3.0293C3.655 2.59731 4.24089 2.35463 4.85181 2.35463H18.6726C19.2835 2.35463 19.8694 2.59731 20.3014 3.0293C20.7334 3.46128 20.9761 4.04718 20.9761 4.65809V18.4789C20.9761 19.0898 20.7334 19.6757 20.3014 20.1077C19.8694 20.5397 19.2835 20.7824 18.6726 20.7824H4.85181C4.24089 20.7824 3.655 20.5397 3.22301 20.1077C2.79103 19.6757 2.54834 19.0898 2.54834 18.4789V4.65809C2.54834 4.04718 2.79103 3.46128 3.22301 3.0293ZM18.6726 0.0511589H4.85181C3.62997 0.0511589 2.45818 0.536531 1.59421 1.4005C0.730245 2.26447 0.244873 3.43626 0.244873 4.65809V18.4789C0.244873 19.7007 0.730245 20.8725 1.59421 21.7365C2.45818 22.6005 3.62997 23.0858 4.85181 23.0858H18.6726C19.8945 23.0858 21.0662 22.6005 21.9302 21.7365C22.7942 20.8725 23.2796 19.7007 23.2796 18.4789V4.65809C23.2796 3.43626 22.7942 2.26447 21.9302 1.4005C21.0662 0.536531 19.8945 0.0511589 18.6726 0.0511589ZM17.5209 17.1278V12.8698C17.5209 10.5894 16.3023 9.52747 14.6784 9.52747C13.3666 9.52747 12.7815 10.2485 12.4532 10.7552V10.7783H12.4371L12.4532 10.7541V9.70254H9.98392C10.0173 10.3993 9.98392 17.1278 9.98392 17.1278H12.4532V12.9804C12.4532 12.7592 12.4705 12.5381 12.535 12.3792C12.7135 11.9346 13.1201 11.4762 13.8019 11.4762C14.6957 11.4762 15.0527 12.1569 15.0527 13.1543V17.1278H17.5209ZM6.00353 7.40483C6.00353 6.67693 6.55636 6.1218 7.40058 6.1218C8.24595 6.1218 8.76538 6.67693 8.78151 7.40483C8.78151 8.11775 8.24595 8.68901 7.38446 8.68901H7.36833C6.54024 8.68901 6.00353 8.1189 6.00353 7.40483ZM8.61911 17.1278H6.1498V9.70254H8.61911V17.1278Z" fill="#DA5C5C"/>
+            </svg>
+        </a>
+
+        <a href="">
+            <svg width="35" height="30" viewBox="0 0 29 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M28.8122 11.26C28.8122 11.189 28.8122 11.1084 28.809 11.0149C28.8058 10.7537 28.7993 10.4602 28.7929 10.1474C28.7672 9.24773 28.7221 8.35125 28.6514 7.50637C28.5549 6.34224 28.4134 5.3716 28.2205 4.64281C28.0169 3.88225 27.6178 3.18861 27.0631 2.63121C26.5084 2.07381 25.8175 1.67217 25.0595 1.46645C24.1495 1.22137 22.368 1.06981 19.8598 0.976288C18.6668 0.931142 17.3902 0.902119 16.1136 0.885995C15.6666 0.879546 15.2518 0.876321 14.8788 0.873096H13.9334C13.5604 0.876321 13.1456 0.879546 12.6986 0.885995C11.422 0.902119 10.1454 0.931142 8.95236 0.976288C6.44415 1.07303 4.65947 1.22459 3.75266 1.46645C2.99441 1.67167 2.30327 2.07313 1.74849 2.63061C1.19371 3.18809 0.794779 3.882 0.591679 4.64281C0.395524 5.3716 0.257252 6.34224 0.160782 7.50637C0.0900381 8.35125 0.045019 9.24773 0.0192938 10.1474C0.00964689 10.4602 0.00643124 10.7537 0.0032156 11.0149C0.0032156 11.1084 0 11.189 0 11.26V11.4405C0 11.5115 -4.91148e-08 11.5921 0.0032156 11.6856C0.00643124 11.9468 0.0128625 12.2403 0.0192938 12.5531C0.045019 13.4528 0.0900381 14.3493 0.160782 15.1941C0.257252 16.3583 0.39874 17.3289 0.591679 18.0577C1.00328 19.6023 2.21236 20.8213 3.75266 21.2341C4.65947 21.4791 6.44415 21.6307 8.95236 21.7242C10.1454 21.7694 11.422 21.7984 12.6986 21.8145C13.1456 21.821 13.5604 21.8242 13.9334 21.8274H14.8788C15.2518 21.8242 15.6666 21.821 16.1136 21.8145C17.3902 21.7984 18.6668 21.7694 19.8598 21.7242C22.368 21.6275 24.1527 21.4759 25.0595 21.2341C26.5998 20.8213 27.8089 19.6056 28.2205 18.0577C28.4167 17.3289 28.5549 16.3583 28.6514 15.1941C28.7221 14.3493 28.7672 13.4528 28.7929 12.5531C28.8025 12.2403 28.8058 11.9468 28.809 11.6856C28.809 11.5921 28.8122 11.5115 28.8122 11.4405V11.26ZM26.4969 11.4276C26.4969 11.4954 26.4969 11.5695 26.4937 11.6566C26.4905 11.9081 26.4841 12.1855 26.4776 12.4854C26.4551 13.3431 26.4101 14.2009 26.3426 14.9974C26.2557 16.0358 26.1336 16.8871 25.9824 17.4579C25.783 18.2028 25.1978 18.7929 24.4582 18.9896C23.7829 19.1702 22.0818 19.3153 19.7698 19.4024C18.5993 19.4476 17.3388 19.4766 16.0814 19.4927C15.6409 19.4992 15.2325 19.5024 14.8659 19.5024H13.9463L12.7307 19.4927C11.4734 19.4766 10.2161 19.4476 9.0424 19.4024C6.73035 19.3121 5.02605 19.1702 4.35398 18.9896C3.61439 18.7897 3.02914 18.2028 2.82977 17.4579C2.67863 16.8871 2.55644 16.0358 2.46962 14.9974C2.40209 14.2009 2.36028 13.3431 2.33456 12.4854C2.32491 12.1855 2.3217 11.9049 2.31848 11.6566C2.31848 11.5695 2.31526 11.4921 2.31526 11.4276V11.2729C2.31526 11.2051 2.31526 11.131 2.31848 11.0439C2.3217 10.7924 2.32813 10.515 2.33456 10.2151C2.35707 9.35737 2.40209 8.49959 2.46962 7.70308C2.55644 6.66472 2.67863 5.81339 2.82977 5.24261C3.02914 4.4977 3.61439 3.90757 4.35398 3.71086C5.02927 3.53028 6.73035 3.38516 9.0424 3.29809C10.2129 3.25295 11.4734 3.22393 12.7307 3.2078C13.1713 3.20135 13.5797 3.19813 13.9463 3.19813H14.8659L16.0814 3.2078C17.3388 3.22393 18.5961 3.25295 19.7698 3.29809C22.0818 3.38839 23.7861 3.53028 24.4582 3.71086C25.1978 3.91079 25.783 4.4977 25.9824 5.24261C26.1336 5.81339 26.2557 6.66472 26.3426 7.70308C26.4101 8.49959 26.4519 9.35737 26.4776 10.2151C26.4873 10.515 26.4905 10.7956 26.4937 11.0439C26.4937 11.131 26.4969 11.2084 26.4969 11.2729V11.4276ZM11.5442 15.6714L19.0045 11.318L11.5442 7.02911V15.6714Z" fill="#DA5C5C"/>
+            </svg>
+
+        </a>
+
+        <a href="">
+            <svg width="26" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.4283 5.63275C9.14361 5.63275 6.49267 8.28374 6.49267 11.5685C6.49267 14.8533 9.14361 17.5043 12.4283 17.5043C15.7131 17.5043 18.364 14.8533 18.364 11.5685C18.364 8.28374 15.7131 5.63275 12.4283 5.63275ZM12.4283 15.4263C10.3041 15.4263 8.57059 13.6928 8.57059 11.5685C8.57059 9.44427 10.3041 7.71071 12.4283 7.71071C14.5526 7.71071 16.2861 9.44427 16.2861 11.5685C16.2861 13.6928 14.5526 15.4263 12.4283 15.4263ZM18.6071 4.00628C17.8402 4.00628 17.2209 4.62561 17.2209 5.39255C17.2209 6.15948 17.8402 6.77881 18.6071 6.77881C19.374 6.77881 19.9933 6.16237 19.9933 5.39255C19.9936 5.21043 19.9579 5.03007 19.8883 4.86177C19.8187 4.69348 19.7166 4.54057 19.5878 4.4118C19.4591 4.28302 19.3061 4.18092 19.1379 4.11134C18.9696 4.04175 18.7892 4.00605 18.6071 4.00628ZM23.9987 11.5685C23.9987 9.97099 24.0132 8.38793 23.9234 6.79328C23.8337 4.94107 23.4112 3.29723 22.0568 1.94279C20.6995 0.585466 19.0586 0.165824 17.2064 0.0761071C15.6089 -0.0136097 14.0258 0.000860829 12.4312 0.000860829C10.8337 0.000860829 9.25068 -0.0136097 7.65607 0.0761071C5.80389 0.165824 4.16008 0.58836 2.80567 1.94279C1.44837 3.30012 1.02874 4.94107 0.939021 6.79328C0.849306 8.39082 0.863776 9.97389 0.863776 11.5685C0.863776 13.1632 0.849306 14.7491 0.939021 16.3438C1.02874 18.196 1.45126 19.8398 2.80567 21.1943C4.16297 22.5516 5.80389 22.9712 7.65607 23.0609C9.25358 23.1507 10.8366 23.1362 12.4312 23.1362C14.0287 23.1362 15.6118 23.1507 17.2064 23.0609C19.0586 22.9712 20.7024 22.5487 22.0568 21.1943C23.4141 19.8369 23.8337 18.196 23.9234 16.3438C24.016 14.7491 23.9987 13.1661 23.9987 11.5685ZM21.4519 18.3928C21.2407 18.9195 20.986 19.3131 20.5779 19.7183C20.1699 20.1263 19.7792 20.381 19.2525 20.5923C17.7302 21.1972 14.1156 21.0611 12.4283 21.0611C10.7411 21.0611 7.12357 21.1972 5.60131 20.5952C5.07459 20.3839 4.68101 20.1292 4.27584 19.7212C3.86778 19.3131 3.61311 18.9224 3.40184 18.3957C2.79988 16.8705 2.9359 13.2558 2.9359 11.5685C2.9359 9.88128 2.79988 6.26367 3.40184 4.74138C3.61311 4.21465 3.86778 3.82106 4.27584 3.41588C4.6839 3.01071 5.07459 2.75314 5.60131 2.54187C7.12357 1.9399 10.7411 2.07592 12.4283 2.07592C14.1156 2.07592 17.7331 1.9399 19.2554 2.54187C19.7821 2.75314 20.1757 3.00782 20.5808 3.41588C20.9889 3.82395 21.2436 4.21465 21.4548 4.74138C22.0568 6.26367 21.9208 9.88128 21.9208 11.5685C21.9208 13.2558 22.0568 16.8705 21.4519 18.3928Z" fill="#DA5C5C"/>
+            </svg>
+                
+        </a>
+     
+    </div>
+</footer>
+
+</html>
